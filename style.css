@@ -123,5 +123,18 @@ ul {
   align-items: start;
 }
 .header-right img{
-  width: 100;
+  width: 100%;
+}
+
+/* Company section */
+.company-section h4 {
+  text-align: center;
+  color: var(--accent-color);
+}
+.logos {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.logos img {
+  height: 46px;
 }
